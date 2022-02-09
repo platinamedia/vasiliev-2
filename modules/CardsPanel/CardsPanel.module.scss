@@ -1,0 +1,19 @@
+.CardsPanel {
+  margin-left: -10px;
+  margin-top: -10px;
+  width: calc(100% + 20px);
+  display: flex;
+  flex-wrap: wrap;
+
+  &_item {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .CardsPanel {
+    &_item {
+      width: 20%;
+    }
+  }
+}

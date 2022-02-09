@@ -1,0 +1,14 @@
+.Content {
+  padding: 0 var(--content-spacing);
+  margin: calc(var(--header_height) + 40px) auto 0;
+  max-width: var(--max-content);
+  min-height: calc(100vh - var(--header_height) - 120px);
+  background: var(--main-BG_color);
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1200px) {
+  .Content {
+    margin: calc(80px + 40px) auto 0;
+  }
+}

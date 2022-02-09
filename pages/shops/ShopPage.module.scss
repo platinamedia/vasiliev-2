@@ -1,0 +1,16 @@
+.title {
+  padding-top: 30px;
+}
+
+.queryDescription_shopLogo {
+  margin-top: 40px;
+  display: flex;
+  max-width: 500px;
+  img {
+    width: 130px;
+  }
+  &_description {
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+}
